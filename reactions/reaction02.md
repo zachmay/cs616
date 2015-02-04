@@ -31,8 +31,10 @@ together to translate real requirements!
 
 So, in the end, I wonder if the approach of using intermediate tools like Almost TeAL
 could be obviated with better training materials and possibly some syntactic changes
-to clear up confusion. Of course, this is just the sort of question that one would
-perform an experiment to answer.
+to clear up confusion. Personally, I would have found a complete formal grammar of the entire
+language (*AD* expressions and temporal constraints) followed by full, concrete examples
+a useful starting point and I imagine many programmers would be comfortable with that. 
+Of course, this is just the sort of question that one would perform an experiment to answer.
 
 ### References
 
