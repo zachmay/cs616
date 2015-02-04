@@ -18,19 +18,21 @@ must be an action and the other two are lists of fluents, it was difficult to
 extract those "type" rules from the examples in the introductory document, which
 was all that was available while working on the exercises.
 
-Similarly, it was difficult really keep track the difference between actions
+A related issue, it was difficult really keep track the difference between actions
 and fluents since they are syntactically identical. In isolation, is  *connect(serA, nodeA)* 
-an action or a fluent? Even something as simple as saying that actions should
-be prepended with an exclamation point might be helpful, e.g.: *!connect(serA, nodeA)*.
+an action or a fluent? A simple rule like requiring actions to start with an exclamation
+point might be helpful, e.g.: *!connect(serA, nodeA)* would definitely be an action.
 
 More problems come up when we move to temporal constraints. After a closer re-reading of
 the paper, I think I better understand their role in the language (standing alongside but
 separate from the *AD* expressions), but between the paper and the introductory document,
-I still do not have much of a grasp on how to use TeAL to translate real requirements!
+I still do not have much of a grasp on how to use *AD* expressions and temporal constraints
+together to translate real requirements!
 
 So, in the end, I wonder if the approach of using intermediate tools like Almost TeAL
 could be obviated with better training materials and possibly some syntactic changes
-to clear up confusion.
+to clear up confusion. Of course, this is just the sort of question that one would
+perform an experiment to answer.
 
 ### References
 
